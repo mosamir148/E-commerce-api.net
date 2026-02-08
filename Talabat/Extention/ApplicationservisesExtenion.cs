@@ -16,6 +16,9 @@ namespace Talabat.Extention
 
           
             services.AddScoped(typeof(IGenericinterface<>), typeof(GenericRepository<>));
+
+            services.AddScoped(typeof(IBasketRepository), typeof(BasketReposetory));
+
             services.AddAutoMapper(typeof(MppingProfile));
           
             #region 
