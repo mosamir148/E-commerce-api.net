@@ -1,0 +1,15 @@
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\bin\Debug\net6.0\TlabatRepository.deps.json
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\bin\Debug\net6.0\TlabatRepository.dll
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\bin\Debug\net6.0\TlabatRepository.pdb
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\bin\Debug\net6.0\TalabatCore.dll
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\bin\Debug\net6.0\TalabatCore.pdb
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.csproj.AssemblyReference.cache
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.AssemblyInfoInputs.cache
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.AssemblyInfo.cs
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.csproj.CoreCompileInputs.cache
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.csproj.CopyComplete
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.dll
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\refint\TlabatRepository.dll
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\TlabatRepository.pdb
+D:\course\backend\api\Session 01\TalabatSolution\TlabatRepository\obj\Debug\net6.0\ref\TlabatRepository.dll
