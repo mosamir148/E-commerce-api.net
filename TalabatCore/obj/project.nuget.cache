@@ -1,16 +1,36 @@
 {
   "version": 2,
-  "dgSpecHash": "NuIGO6FjvPFPTs0LZnxLOqKYxcq/vnhJ/0dMxshrTWeYzbrvPzkr4m3iDZkiG0tgtiTeaxi/cN8WWB7u1CPzBg==",
+  "dgSpecHash": "C53wKTPvji/LfpXok7mqovPSmonUcsvd6wuSv1PV41W5uDBh/1jIuJK+Ffyu5Oe3I2f1sreUu0eNU2dfLTSdEw==",
   "success": true,
   "projectFilePath": "D:\\course\\backend\\api\\Session 01\\TalabatSolution\\TalabatCore\\TalabatCore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.14\\microsoft.aspnetcore.cryptography.internal.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.14\\microsoft.aspnetcore.cryptography.keyderivation.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.14\\microsoft.entityframeworkcore.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.14\\microsoft.entityframeworkcore.abstractions.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.14\\microsoft.entityframeworkcore.analyzers.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.14\\microsoft.entityframeworkcore.relational.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.14\\microsoft.extensions.identity.core.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.14\\microsoft.extensions.identity.stores.6.0.14.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\stackexchange.redis\\2.10.14\\stackexchange.redis.2.10.14.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\system.io.hashing\\9.0.10\\system.io.hashing.9.0.10.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
-    "C:\\Users\\mohamed samir\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\mohamed samir\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

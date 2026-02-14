@@ -12,16 +12,10 @@ D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Micros
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -32,7 +26,6 @@ D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Micros
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\System.Collections.Immutable.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -83,3 +76,11 @@ D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\AutoMa
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\StackExchange.Redis.dll
 D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\TalabatServise.dll
+D:\course\backend\api\Session 01\TalabatSolution\Talabat\bin\Debug\net6.0\TalabatServise.pdb
