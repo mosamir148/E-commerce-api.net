@@ -1,8 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Talabat.Dto;
 using Talabat.Errors;
+using Talabat.Extention;
 using TalabatCore.Entites;
 using TalabatCore.Servise;
 
@@ -15,15 +20,18 @@ namespace Talabat.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenservise _tokenservise;
+        private readonly IMapper _mapper;
 
         public AccountController(UserManager<AppUser> userManager
             ,SignInManager<AppUser> signInManager,
-            ITokenservise tokenservise
+            ITokenservise tokenservise,
+            IMapper mapper
            )
         {
             this._userManager = userManager;
             this._signInManager = signInManager;
             this._tokenservise = tokenservise;
+            this._mapper = mapper;
         }
 
         [HttpPost("Login")]
@@ -66,8 +74,50 @@ namespace Talabat.Controllers
             });
         }
 
-               
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("getUser")]
+         public async Task<ActionResult<UserDto>> getUser()
+        {
+            var Email = User.FindFirstValue(ClaimTypes.Email);
+            var user = await _userManager.FindByEmailAsync(Email);
+            return Ok(new UserDto()
+            {
+                Name = user.DisplayName,
+                Email = user.Email,
+                Token = await _tokenservise.Createtoken(user, _userManager)
+            });
+        }
 
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("GetUserAddress")]
+        public async Task<ActionResult<UserDto>> getuseradress()
+        {
+            var user = await _userManager.getuserwhithadressasync(User);
+            var adresdto =  _mapper.Map<Address, AdressDto>(user.address);
+            return Ok(adresdto);
+        }
+
+
+
+        [Authorize]
+        [HttpPut("Updateadress")]
+        public async Task<ActionResult<AdressDto>> updateadress(AdressDto dto)
+        {
+            var Adddress = _mapper.Map<AdressDto,Address>(dto);
+
+            var user = await _userManager.getuserwhithadressasync(User);
+
+          
+
+           Adddress.id = user.address.id;
+
+            user.address = Adddress;
+
+            var result = await _userManager.UpdateAsync(user);
+            if(!result.Succeeded) return BadRequest(new ApiResponse(400));
+            return Ok(dto);
+
+        }
         
     }
 }

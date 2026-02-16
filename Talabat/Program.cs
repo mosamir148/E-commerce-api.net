@@ -43,7 +43,7 @@ namespace Talabat
         
             builder.Services.AddAplicationServises();
 
-            builder.Services.identityservuse();
+            builder.Services.identityservuse(builder.Configuration);
 
             var app = builder.Build();
 
@@ -83,6 +83,10 @@ namespace Talabat
             }
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

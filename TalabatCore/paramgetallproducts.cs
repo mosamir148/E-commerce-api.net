@@ -17,12 +17,12 @@
         public int? brands { get; set; }
         public int? types { get; set; }
 
-        private string scerch;
+        private string? scerch;
 
-        public string Scerch
+        public string? Scerch
         {
             get { return scerch; }
-            set { scerch = value.ToLower(); }
+            set { scerch = value?.ToLower(); }
         }
 
 

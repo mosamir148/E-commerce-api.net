@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.Dto;
@@ -29,7 +31,7 @@ namespace Talabat.Controllers
             _brandrepo = brandsrepo;
             _Mapper = mapper;
         }
-
+        [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<Pagination<productToDtos>>>> GetProducts([FromQuery]paramgetallproducts para)
         {

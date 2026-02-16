@@ -43,9 +43,9 @@ namespace TalabatServise
 
                 issuer: configuration["Jwt:Issur"],
                 audience: configuration["Jwt:Audiance"],
-                expires: DateTime.Now.AddDays(double.Parse(configuration["Jwt:durationinday"])),
+                expires: DateTime.UtcNow.AddDays(double.Parse(configuration["Jwt:durationinday"])),
                 claims: authclaim,
-                signingCredentials: new SigningCredentials(authKey, SecurityAlgorithms.HmacSha256Signature)
+                signingCredentials: new SigningCredentials(authKey, SecurityAlgorithms.HmacSha256)
 
             );
 
