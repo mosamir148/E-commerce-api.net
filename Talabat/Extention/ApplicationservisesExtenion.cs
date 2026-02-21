@@ -5,16 +5,20 @@ using TlabatRepository.Data;
 using TlabatRepository;
 using Talabat.Errors;
 using Microsoft.EntityFrameworkCore;
+using TalabatCore.Servise;
+using TalabatServise;
 
 namespace Talabat.Extention
 {
     public static class ApplicationservisesExtenion
     {
-        public static void AddAplicationServises(this IServiceCollection services)
+        public static IServiceCollection AddAplicationServises(this IServiceCollection services)
         {
            
+            services.AddScoped(typeof(IUnitOfWork),typeof(UnitOfWork));
 
-          
+            services.AddScoped(typeof(IOrderServise), typeof(OrderServise));
+
             services.AddScoped(typeof(IGenericinterface<>), typeof(GenericRepository<>));
 
             services.AddScoped(typeof(IBasketRepository), typeof(BasketReposetory));
@@ -39,6 +43,8 @@ namespace Talabat.Extention
                 };
             });
             #endregion
+
+            return services;
         }
 
     }

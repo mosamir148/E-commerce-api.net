@@ -18,5 +18,11 @@ namespace TalabatCore.Irepository
 
         Task<int> getCount(ISpaseficationrepo<T> spec);
 
+        Task Add(T Entity);
+
+        void Delete(T Entity);  
+
+        void Update(T Entity);
+
     }
 }

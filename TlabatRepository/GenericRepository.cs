@@ -49,6 +49,18 @@ namespace TlabatRepository
             return  basespecification<T>.GetQuery(_dbcontext.Set<T>(), spec);
         }
 
-       
+        public async Task Add(T Entity)
+        {
+             await _dbcontext.Set<T>().AddAsync(Entity);
+        }
+        public  void Delete(T Entity)
+        {
+            _dbcontext.Set<T>().Remove(Entity);
+        }
+
+        public void Update(T Entity)
+        {
+            _dbcontext.Set<T>().Update(Entity);
+        }
     }
 }
