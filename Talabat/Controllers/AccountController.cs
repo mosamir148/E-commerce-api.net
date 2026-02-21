@@ -55,6 +55,8 @@ namespace Talabat.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto model)
         {
+            if (CheckEmailExist(model.Email).Result.Value)
+                return BadRequest(400);
             var user = new AppUser()
             {
                 DisplayName = model.Name,
@@ -117,6 +119,12 @@ namespace Talabat.Controllers
             if(!result.Succeeded) return BadRequest(new ApiResponse(400));
             return Ok(dto);
 
+        }
+
+        [HttpGet("emailExist")]
+        public async Task<ActionResult<bool>> CheckEmailExist(string Email)
+        {
+            return await _userManager.FindByEmailAsync(Email) is not null;
         }
         
     }

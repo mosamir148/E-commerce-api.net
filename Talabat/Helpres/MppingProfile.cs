@@ -13,6 +13,8 @@ namespace Talabat.Helpres
                 .ForMember(o => o.ProductType, o => o.MapFrom(e => e.ProductType.Name))
                 .ForMember(o => o.PictureUrl, o => o.MapFrom<Pictureurlresolver>());
             CreateMap<Address, AdressDto>().ReverseMap();
+            CreateMap<CustomerItemDto, CustomerBasket>();
+            CreateMap<BasKetItemDto, BasketItem>();
         }
     }
 }
